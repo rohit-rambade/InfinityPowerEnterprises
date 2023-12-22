@@ -12,9 +12,9 @@ const Services = () => {
   };
     
   return (
-    <section class=" font-poppins ">
-  <div class="container flex flex-col gap-y-11 px-5 py-5 mx-auto ">
-    <div class="flex flex-col justify-center items-center">
+    <section className=" font-poppins ">
+  <div className="container flex flex-col gap-y-11 px-5 py-5 mx-auto ">
+    <div className="flex flex-col justify-center items-center">
         <h1 className='text-6xl text-center font-bold'>Services We Offer</h1>
    
     </div>
@@ -37,9 +37,7 @@ const Services = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
+                
                 className="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
               >
