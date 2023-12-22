@@ -11,7 +11,7 @@ const Contact = () => {
             gentrify, subway tile poke farm-to-table.
           </p>
         </div>
-        <div className="flex flex-col items-stretch md:flex-wrap lg:flex-nowrap md:flex-row justify-center  ">
+        <div className="flex flex-col items-center sm:items-stretch md:flex-wrap lg:flex-nowrap md:flex-row justify-center  ">
           {contact.map((contact) => {
             return (
               <div
