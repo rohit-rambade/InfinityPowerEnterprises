@@ -10,7 +10,7 @@ export default function App() {
    <Hero/>
    <Services/>
    <Contact/>
-   <h1>test</h1>
+  
    </>
   )
 }

@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'hero-section': "url('src/assets/images/bg-galaxy.jpg')",
+        'hero-section': "url('./src/assets/images/bg-banner.jpg')",
       },
       fontFamily:{
         'poppins':['Poppins']
