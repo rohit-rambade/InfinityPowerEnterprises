@@ -8,5 +8,42 @@
       .glow-text {
         text-shadow: 0 0 50px yellow, 0 0 5px yellow, 0 0 100px yellow;
       }
+      .hov{
+        transition: 0.5s;
+        color: yellow;
+    }
+    
+    .aft{
+        content: '';
+        width: 0;
+        height: 2px;
+        background: yellow;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    
+    .haft{
+        width: 100%;
+    }
+
+    .line {
+      position: absolute;
+      content: '';
+      display: block;
+      height: 2px;
+      width: 50%;
+      background-color: yellow;
+    }
+    
+    .line-top {
+      top: 0;
+      left: 0;
+    }
+    
+    .line-bottom {
+      bottom: 0;
+      right: 0;
+    }
       
     }
