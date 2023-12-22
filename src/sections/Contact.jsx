@@ -28,13 +28,13 @@ const Contact = () => {
 
 ]
   return (
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600 font-poppins">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+          <h1 class="text-6xl font-bold mb-2 text-gray-900">
             Our Contacts
           </h1>
-          <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
+          <p class="lg:w-1/2 w-full leading-relaxed text-2xl text-gray-500">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
             gentrify, subway tile poke farm-to-table.
           </p>
@@ -62,10 +62,10 @@ const Contact = () => {
                         <path d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z"></path>
                       </svg>
                     </div>
-                    <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                    <h5 class="block mb-2 text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                      {contact.name}
                     </h5>
-                    <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                    <p class="block text-base antialiased font-light leading-relaxed text-inherit">
                      {contact.desc}
                     </p>
                    
