@@ -12,7 +12,7 @@ const Services = () => {
   };
     
   return (
-    <section className=" font-poppins ">
+    <section className=" font-poppins " id='Services'>
   <div className="container flex flex-col gap-y-11 px-5 py-5 mx-auto ">
     <div className="flex flex-col justify-center items-center">
         <h1 className='text-6xl text-center font-bold'>Services We Offer</h1>
