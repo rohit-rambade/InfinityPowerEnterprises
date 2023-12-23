@@ -2,8 +2,8 @@ import React from "react";
 import contact from "../constants/contact";
 const Contact = () => {
   return (
-    <section className="text-gray-600 font-poppins">
-      <div className="container px-5 py-24 mx-auto">
+    <section className="text-gray-600 font-poppins" id="Contact">
+      <div className="container px-5 pt-24 pb-16 mx-auto">
         <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
           <h1 className="text-6xl font-bold mb-2 text-gray-900">Our Contacts</h1>
           <p className="lg:w-1/2 w-full leading-relaxed text-2xl text-gray-500">
