@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily:{
         'poppins':['Poppins']
+      },
+      screens: {
+        'xsm': '385px',
       }
     },
   },
