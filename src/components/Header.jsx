@@ -49,7 +49,7 @@ const Header = () => {
             } flex justify-center  w-full md:block md:w-auto`}
             id="navbar-default"
           >
-            <ul className="absolute text-center md:static bg-black w-full font-medium flex flex-col p-4 md:p-0 mt-4 border-t border-gray-100   md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
+            <ul className="absolute text-center md:static bg-black w-full font-medium flex flex-col p-4 md:p-0 mt-4 border-t border-gray-100   md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 z-50 ">
               {menuList.map((navMenu) => (
                 <li key={navMenu.no}>
                   <a

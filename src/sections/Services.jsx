@@ -20,11 +20,11 @@ const Services = () => {
     </div>
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 -m-4">
       {services.map((service) => (
-        <div className="p-4" key={service.id}>
+        <div className="p-4 text-black" key={service.id}>
           <div className="rounded-lg h-64 overflow-hidden">
             <img alt="content" className="object-cover object-center h-full w-full" src={service.image} />
           </div>
-          <h1 className="text-xl lg:text-4xl font-medium title-font text-gray-900 mt-5">{service.name}</h1>
+          <h1 className="text-xl lg:text-4xl font-bold title-font  mt-5">{service.name}</h1>
           <p className="text-base lg:text-xl leading-relaxed mt-2">
             {expanded[service.id] ? service.description : `${service.description.slice(0, 150)}...`}
           </p>
