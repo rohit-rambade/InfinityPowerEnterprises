@@ -2,7 +2,7 @@ import React from 'react'
 import bgImage from "../assets/images/bg-banner.jpg"
 const Hero = () => {
   return (
-    <section className='font-poppins'>
+    <section className='font-poppins mt-20 md:mt-14 lg:mt-14'>
 	<div className="bg-center bg-cover" style={{ backgroundImage: `url(${bgImage})` }}>
 		<div className="container flex flex-col items-center px-4 gap-y-6 py-16 pb-24 mx-auto lg:text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900 text-start lg">
 			<h1 className="text-[2.75rem] leading-none xsm:text-6xl  uppercase font-bold  sm:text-[5rem] lg:leading-[6rem] xl:max-w-3xl  text-white relative"><span className='line line-top'></span>Infinity <span className="glow-text">Power</span> Enterprises <span className='line line-bottom'></span></h1>

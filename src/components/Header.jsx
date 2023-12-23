@@ -26,8 +26,9 @@ const Header = () => {
     },
   ];
   return (
-    <header className="font-poppins bg-black text-white">
-      <nav className=" border-gray-200">
+    <div className="relative">
+    <header className="font-poppins bg-black text-white fixed top-0 z-50 w-full">
+    <nav className=" border-gray-200">
         <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
         
           <a
@@ -50,21 +51,22 @@ const Header = () => {
             id="navbar-default"
           >
             <ul className="absolute text-center md:static bg-black w-full font-medium flex flex-col p-4 md:p-0 mt-4 border-t border-gray-100   md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 z-50 ">
-              {menuList.map((navMenu) => (
+            {menuList.map((navMenu) => (
                 <li key={navMenu.no}>
-                  <a
-                  href={`#${navMenu.name}`}
-                    className={`block cursor-pointer py-2 px-3 rounded md:p-0 text-white hover:hov after:aft hover:after:haft font-bold`}
-                  >
-                    {navMenu.name}
-                  </a>
+                <a
+                href={`#${navMenu.name}`}
+                className={`block cursor-pointer py-2 px-3 rounded md:p-0 text-white hover:hov after:aft hover:after:haft font-bold`}
+                >
+                {navMenu.name}
+                </a>
                 </li>
-              ))}
-            </ul>
-          </div>
+                ))}
+                </ul>
+                </div>
         </div>
       </nav>
     </header>
+    </div>
   );
 };
 
