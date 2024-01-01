@@ -22,30 +22,46 @@
 @layer utilities {
   @keyframes glow {
     0% {
-      text-shadow: 0 0 0px #eeff00,
-        0 0 5px #eeff00,
-        0 0 20px #eeff00,
-        0 0 80px #eeff00,
-        0 0 150px #eeff00;
+      text-shadow: 
+        0 0 5px #cc0000,
+        0 0 10px #cc0000,
+        0 0 15px #cc0000
+        0 0 20px #cc0000,
+        0 0 25px #cc0000,
+        0 0 30px #cc0000;
+        /* 0 0 80px #005e94,
+        0 0 150px #005e94; */
+        
     }
     25% {
       text-shadow:
-        0 0 10px #eeff00,
-        0 0 40px #eeff00,
-        0 0 90px #eeff00;
+        0 0 30px #cc0000,
+        0 0 50px #cc0000,
+        0 0 40px #cc0000,
+        0 0 45px #cc0000,
+        0 0 50px #cc0000,
+        0 0 55px #cc0000,
+        0 0 60px #cc0000;
     }
     50% {
       text-shadow:
-        0 0 20px #eeff00,
-        0 0 80px #eeff00,
-        0 0 100px #eeff00;
+      0 0 60px #cc0000,
+      0 0 55px #cc0000,
+      0 0 50px #cc0000,
+      0 0 45px #cc0000,
+      0 0 40px #cc0000,
+      0 0 35px #cc0000,
+      0 0 30px #cc0000;
     }
     100% {
       text-shadow:
-        0 0 5px #eeff00,
-        0 0 20px #eeff00,
-        0 0 80px #eeff00,
-        0 0 150px #eeff00;
+        0 0 30px #cc0000,
+        0 0 25px #cc0000,
+        0 0 20px #cc0000,
+        0 0 15px #cc0000,
+        0 0 10px #cc0000,
+        0 0 5px #cc0000;
+        
     }
   
   }
@@ -55,14 +71,14 @@
   }
       .hov{
         transition: 0.5s;
-        color: yellow;
+        color: #cc0000;
     }
     
     .aft{
         content: '';
         width: 0;
         height: 2px;
-        background: yellow;
+        background: #cc0000;
         display: block;
         margin: auto;
         transition: 0.5s;
@@ -76,9 +92,9 @@
       position: absolute;
       content: '';
       display: block;
-      height: 2px;
+      height: 3px;
       width: 50%;
-      background-color: yellow;
+      background-color: #cc0000;
     }
     
     .line-top {

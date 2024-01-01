@@ -5,12 +5,12 @@ const Contact = () => {
     <section className="text-gray-600 font-poppins" id="Contact">
       <div className="container px-5 pt-24 pb-16 mx-auto">
         <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-          <h1 className="text-6xl font-bold mb-2 text-gray-900">Our Contacts</h1>
+          <h1 className="text-6xl font-bold mb-2 text-gray-900">Connect With Us</h1>
           <p className="lg:w-1/2 w-full leading-relaxed text-2xl text-gray-500">
           Connect with us effortlessly—where ideas meet action. Your journey starts here, at the intersection of innovation and collaboration.
           </p>
         </div>
-        <div className="flex flex-col items-center sm:items-stretch md:flex-wrap lg:flex-nowrap md:flex-row justify-center  ">
+        <div className="flex flex-col items-center md:items-stretch md:flex-wrap lg:flex-nowrap md:flex-row justify-center  ">
           {contact.map((contact) => {
             return (
               <div
@@ -18,7 +18,7 @@ const Contact = () => {
                 key={contact.id}
               >
                 <div className="relative flex flex-col mt-6 max-h-full text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full  ">
-                  <div className="p-6 flex flex-col justify-center items-center gap-y-2">
+                  <a href={contact.link} className="p-6 flex flex-col justify-center items-center gap-y-2">
                     <div className="flex justify-center">
                       <img src={contact.icon} className="w-1/6 sm:w-1/3" />
                     </div>
@@ -32,11 +32,11 @@ const Contact = () => {
                         </p>
                       ))
                     ) : (
-                      <p className="block text-base antialiased font-light leading-relaxed text-inherit">
+                      <a href={contact.link} className="block text-base antialiased font-light leading-relaxed text-inherit">
                         {contact.desc}
-                      </p>
+                      </a>
                     )}
-                  </div>
+                  </a>
                 </div>
               </div>
             );

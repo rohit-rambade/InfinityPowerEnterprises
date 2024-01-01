@@ -1,15 +1,17 @@
 import Header from "./components/Header";
+import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
-import Hero from "./sections/Hero";
+import Home from "./sections/Home";
 import Services from "./sections/Services";
 
 export default function App() {
   return (
    <>
    <Header/>
-   <Hero/>
+   <Home/>
    <Services/>
+   <About/>
    <Contact/>
    <Footer/>
   
